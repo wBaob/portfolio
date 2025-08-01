@@ -1,25 +1,44 @@
 # Animated Portfolio Website
 
-This is a modern, animated portfolio website built with **Next.js**, **Framer Motion**, and **GSAP**. The project showcases advanced UI/UX, smooth animations, and a beautiful, interactive design. I created this for people who want to take inspiration or clone it for their own needs.
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-EF0182?style=for-the-badge&logo=framer)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock)
+
+This is a modern, animated portfolio website built with **Next.js**, **Framer Motion**, and **GSAP**. The project showcases advanced UI/UX, smooth animations, and a beautiful, interactive design. Created for developers and designers who want to take inspiration or clone it for their own use.
+
+> 🌐 [Live Demo](https://baocidal.vercel.app)
+
+---
 
 ## Features
 
 - **Framer Motion** for smooth, declarative React animations
 - **GSAP (GreenSock Animation Platform)** for scroll-based and advanced timeline animations
 - **Glassmorphism** and modern UI design
-- **Responsive** and mobile-friendly layout
+- **Responsive design** and mobile-friendly layout
 - **Animated sections**: Hero, About, Skills, Projects, Testimonials, Contact
 - **Custom cursor and parallax effects**
 - **Beautiful tab switchers and animated indicators**
 - **Interactive project cards with 3D tilt**
+- **Dark mode** and smooth UX
+
+---
+
+## 📸 Screenshots
+
+| Desktop View                                                                                                | Mobile View                                                                                               |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| ![Desktop Screenshot](https://raw.githubusercontent.com/wBaob/portfolio/main/public/screenshot-desktop.png) | ![Mobile Screenshot](https://raw.githubusercontent.com/wBaob/portfolio/main/public/screenshot-mobile.png) |
+
+---
 
 ## Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-portfolio-repo.git
-cd your-portfolio-repo/my-app
+git clone https://github.com/wBaob/portfolio.git
+cd portfolio
 ```
 
 ### 2. Install Dependencies
@@ -57,26 +76,21 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 - `components/` – Reusable UI components (including custom animated components)
 - `public/` – Static assets (images, profile picture, etc.)
 - `styles/` – Global styles and Tailwind CSS
+- `lib/` – (Optional) Reusable hooks, utilities, configs
 
 ## Customization
 
 Feel free to:
+
 - Change the content, images, and sections to fit your needs
 - Tweak the animations or add your own
 - Use this as a starter for your own creative portfolio
 
-## Inspiration & License
+## License & Credits
 
-I built this project for the community, so you can take inspiration, learn from the code, or clone it for your own portfolio. No attribution required, but a star or mention is appreciated!
+This project is open source. You can use it freely for personal or commercial use.
+No attribution required — but a ⭐ on the repo or mention is always appreciated.
 
 ---
 
-<<<<<<< HEAD
 **Happy coding!**
-=======
-<<<<<<< HEAD
-**Happy coding!**
-=======
-**Happy coding!** 
->>>>>>> 104e240 (Initial commit: Animated Portfolio Website)
->>>>>>> 68c47d6 (Initial commit)
