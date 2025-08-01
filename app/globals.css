@@ -340,3 +340,8 @@ h6 {
   box-shadow: 0 12px 40px 0 rgba(186, 255, 57, 0.22), 0 3.5px 0 0 #4de94c inset,
     0 1.5rem 3rem 0 rgba(77, 233, 76, 0.18);
 }
+
+button,
+a {
+  cursor: none !important;
+}

@@ -84,7 +84,7 @@ export default function ContactPage() {
         <header className="p-8">
           <Link href="/">
             <motion.div
-              className="flex items-center gap-2 text-white hover:text-purple-300 transition-colors cursor-pointer"
+              className="flex items-center gap-2 text-white hover:text-purple-300 transition-colors cursor-none"
               whileHover={{ x: -5 }}
             >
               <ArrowLeft size={24} />

@@ -326,31 +326,31 @@ export default function Portfolio() {
         <nav className="flex gap-6">
           <a
             href="#about"
-            className="text-white/80 font-semibold hover:text-white transition-colors px-3 py-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"
+            className="text-white/80 font-semibold hover:text-white hover:scale-105 transition-all duration-200 px-3 py-1 rounded-lg outline-none ring-0 focus:outline-none focus:ring-0"
           >
             About
           </a>
           <a
             href="#skills"
-            className="text-white/80 font-semibold hover:text-white transition-colors px-3 py-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"
+            className="text-white/80 font-semibold hover:text-white hover:scale-105 transition-all duration-200 px-3 py-1 rounded-lg outline-none ring-0 focus:outline-none focus:ring-0"
           >
             Skills
           </a>
           <a
             href="#projects"
-            className="text-white/80 font-semibold hover:text-white transition-colors px-3 py-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"
+            className="text-white/80 font-semibold hover:text-white hover:scale-105 transition-all duration-200 px-3 py-1 rounded-lg outline-none ring-0 focus:outline-none focus:ring-0"
           >
             Projects
           </a>
           <a
             href="#testimonials"
-            className="text-white/80 font-semibold hover:text-white transition-colors px-3 py-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"
+            className="text-white/80 font-semibold hover:text-white hover:scale-105 transition-all duration-200 px-3 py-1 rounded-lg outline-none ring-0 focus:outline-none focus:ring-0"
           >
             Testimonials
           </a>
           <a
             href="#contact"
-            className="text-white/80 font-semibold hover:text-white transition-colors px-3 py-1 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400"
+            className="text-white/80 font-semibold hover:text-white hover:scale-105 transition-all duration-200 px-3 py-1 rounded-lg outline-none ring-0 focus:outline-none focus:ring-0"
           >
             Contact
           </a>
@@ -434,7 +434,7 @@ export default function Portfolio() {
           <div className="flex gap-6 justify-center">
             <motion.a
               href="#projects"
-              className="px-8 py-4 border-2 border-white text-white font-bold text-lg tracking-wide hover:bg-white hover:text-black transition-colors cursor-pointer"
+              className="px-8 py-4 border-2 border-white text-white font-bold text-lg tracking-wide hover:bg-white hover:text-black transition-colors cursor-none"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -442,7 +442,7 @@ export default function Portfolio() {
             </motion.a>
             <Link href="/contact">
               <motion.div
-                className="px-8 py-4 border-2 border-white text-white font-bold text-lg tracking-wide hover:bg-white hover:text-black transition-colors cursor-pointer"
+                className="px-8 py-4 border-2 border-white text-white font-bold text-lg tracking-wide hover:bg-white hover:text-black transition-colors cursor-none"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -751,7 +751,7 @@ export default function Portfolio() {
             ].map((service, index) => (
               <motion.div
                 key={service.title}
-                className="bg-black p-8 rounded-lg border border-gray-800 hover:border-purple-500 transition-colors cursor-pointer hover:scale-[1.04] hover:-translate-y-2 hover:shadow-xl duration-300"
+                className="bg-black p-8 rounded-lg border border-gray-800 hover:border-purple-500 transition-colors cursor-none hover:scale-[1.04] hover:-translate-y-2 hover:shadow-xl duration-300"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
@@ -881,7 +881,7 @@ export default function Portfolio() {
             ].map((testimonial, index) => (
               <motion.div
                 key={testimonial.name}
-                className="bg-black p-8 rounded-lg border border-gray-800 hover:border-purple-500 transition-colors hover-lift cursor-pointer"
+                className="bg-black p-8 rounded-lg border border-gray-800 hover:border-purple-500 transition-colors hover-lift cursor-none"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
@@ -960,7 +960,7 @@ export default function Portfolio() {
 
           <Link href="/contact">
             <motion.div
-              className="inline-block jelly-green-btn cursor-pointer"
+              className="inline-block jelly-green-btn cursor-none"
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.6 }}
@@ -1119,7 +1119,7 @@ function TabContent({ skillTab }: { skillTab: number }) {
           ].map((skill, index) => (
             <motion.div
               key={skill}
-              className="bg-black/80 border border-blue-600 rounded-2xl p-7 text-center text-white font-bold text-lg shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.04] hover:-translate-y-2 hover:border-blue-400 hover:shadow-xl"
+              className="bg-black/80 border border-blue-600 rounded-2xl p-7 text-center text-white font-bold text-lg shadow-md transition-all duration-300 cursor-none hover:scale-[1.04] hover:-translate-y-2 hover:border-blue-400 hover:shadow-xl"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.05 }}
@@ -1154,7 +1154,7 @@ function TabContent({ skillTab }: { skillTab: number }) {
           ].map((tool, index) => (
             <motion.div
               key={tool}
-              className="bg-black/80 border border-purple-600 rounded-2xl p-5 text-center text-white font-semibold text-base shadow-md transition-all duration-300 cursor-pointer hover:scale-[1.04] hover:-translate-y-2 hover:border-purple-400 hover:shadow-xl"
+              className="bg-black/80 border border-purple-600 rounded-2xl p-5 text-center text-white font-semibold text-base shadow-md transition-all duration-300 cursor-none hover:scale-[1.04] hover:-translate-y-2 hover:border-purple-400 hover:shadow-xl"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: index * 0.03 }}
@@ -1201,7 +1201,7 @@ function ProjectCard({
   return (
     <motion.div
       ref={cardRef}
-      className="group relative flex flex-col items-center bg-gradient-to-br from-white/5 to-black/60 border border-gray-800 rounded-2xl shadow-xl px-8 pt-8 pb-6 transition-all duration-300 hover:shadow-[0_8px_40px_0_rgba(162,89,247,0.18)] hover:-translate-y-2 hover:scale-[1.04] cursor-pointer min-h-[420px]"
+      className="group relative flex flex-col items-center bg-gradient-to-br from-white/5 to-black/60 border border-gray-800 rounded-2xl shadow-xl px-8 pt-8 pb-6 transition-all duration-300 hover:shadow-[0_8px_40px_0_rgba(162,89,247,0.18)] hover:-translate-y-2 hover:scale-[1.04] cursor-none min-h-[420px]"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: index * 0.08 }}

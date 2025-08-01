@@ -4,7 +4,7 @@
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-EF0182?style=for-the-badge&logo=framer)
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock)
 
-This is a modern, animated portfolio website built with **Next.js**, **Framer Motion**, and **GSAP**. The project showcases advanced UI/UX, smooth animations, and a beautiful, interactive design. Created for developers and designers who want to take inspiration or clone it for their own use.
+This is a modern, animated portfolio website built with **Next.js**, **Framer Motion**, and **GSAP**. The project showcases advanced UI/UX, smooth animations, and a beautiful, interactive design. Ideal for developers and designers seeking inspiration or a high-quality portfolio starter.
 
 > 🌐 [Live Demo](https://baocidal.vercel.app)
 
@@ -28,9 +28,7 @@ This is a modern, animated portfolio website built with **Next.js**, **Framer Mo
 
 ## 📸 Screenshots
 
-| Desktop View                                                                                                | Mobile View                                                                                               |
-| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| ![Desktop Screenshot](https://raw.githubusercontent.com/wBaob/portfolio/main/public/screenshot-desktop.png) | ![Mobile Screenshot](https://raw.githubusercontent.com/wBaob/portfolio/main/public/screenshot-mobile.png) |
+![Desktop Screenshot](https://raw.githubusercontent.com/wBaob/portfolio/main/public/screenshot-desktop.png)
 
 ---
 
