@@ -17,6 +17,7 @@ body {
   background-color: #000;
   color: #fff;
   overflow-x: hidden;
+  cursor: none;
 }
 
 /* Custom scrollbar */
@@ -99,7 +100,7 @@ h6 {
 
 /* Custom cursor */
 .cursor-pointer {
-  cursor: pointer;
+  cursor: none;
 }
 
 /* Parallax container */
@@ -308,7 +309,7 @@ h6 {
   letter-spacing: 0.04em;
   padding: 1.5rem 3rem;
   font-size: 1.25rem;
-  cursor: pointer;
+  cursor: none;
   transition: transform 0.2s cubic-bezier(0.22, 1.61, 0.36, 1), box-shadow 0.2s;
   outline: none;
   position: relative;

@@ -8,6 +8,8 @@ This is a modern, animated portfolio website built with **Next.js**, **Framer Mo
 
 > 🌐 [Live Demo](https://baocidal.vercel.app)
 
+![Animated Preview](https://raw.githubusercontent.com/wBaob/portfolio/main/public/demo.gif)
+
 ---
 
 ## ✨ Features
