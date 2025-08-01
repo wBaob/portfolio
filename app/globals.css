@@ -1,0 +1,341 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Smooth animations */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+/* Logo gradient color suggestion */
+.logo-gradient {
+  background: linear-gradient(90deg, #7c3aed 0%, #a259f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glitch effect for hero text */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.glitch:hover {
+  animation: glitch 0.3s;
+}
+
+/* Custom cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Parallax container */
+.parallax-container {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+}
+
+.parallax-element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax-back {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax-base {
+  transform: translateZ(0);
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+/* Background patterns */
+.bg-grid {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Neon glow effect */
+.neon-glow {
+  box-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor,
+    0 0 20px currentColor;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Stagger animation delays */
+.stagger-1 {
+  animation-delay: 0.1s;
+}
+.stagger-2 {
+  animation-delay: 0.2s;
+}
+.stagger-3 {
+  animation-delay: 0.3s;
+}
+.stagger-4 {
+  animation-delay: 0.4s;
+}
+.stagger-5 {
+  animation-delay: 0.5s;
+}
+
+.midnight-glow {
+  text-shadow: 0 0 8px #a259f7, 0 0 16px #a259f7, 0 0 32px #a259f7,
+    0 0 64px #a259f7;
+  color: #fff;
+}
+
+@keyframes zebra-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 320px 320px;
+  }
+}
+
+.animate-zebra-stripes {
+  animation: zebra-stripes 12s linear infinite;
+}
+
+.realism-black {
+  background: linear-gradient(180deg, #232526 0%, #0f0f0f 100%);
+  color: #fff;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.7), 0 1.5px 0 0 #444 inset;
+  border-radius: 12px;
+  padding: 0.25em 0.75em;
+  display: inline-block;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7), 0 1px 0 #fff2;
+}
+
+/* Smooth zebra stripe animation for EXPERIENCE section */
+@keyframes zebra-move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 120px 120px;
+  }
+}
+
+.zebra-bg {
+  background: repeating-linear-gradient(
+    135deg,
+    #141414 0px,
+    #141414 40px,
+    #000 40px,
+    #000 80px
+  );
+  animation: zebra-move 8s linear infinite;
+  background-size: 120px 120px;
+}
+
+/* Traveling shadow animation for hero name */
+@keyframes traveling-shadow {
+  0% {
+    text-shadow: 0 0 0 #a259f7, 0 0 0 #fff;
+  }
+  20% {
+    text-shadow: 4px 0 16px #a259f7, 0 0 0 #fff;
+  }
+  40% {
+    text-shadow: 0 4px 24px #fff, 0 0 0 #a259f7;
+  }
+  60% {
+    text-shadow: -4px 0 16px #a259f7, 0 0 0 #fff;
+  }
+  80% {
+    text-shadow: 0 -4px 24px #fff, 0 0 0 #a259f7;
+  }
+  100% {
+    text-shadow: 0 0 0 #a259f7, 0 0 0 #fff;
+  }
+}
+
+.traveling-shadow {
+  animation: traveling-shadow 2.5s linear infinite;
+}
+
+/* Shiny sweep effect for hero name */
+@keyframes shine {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shiny-text {
+  background: linear-gradient(110deg, #fff 10%, #a259f7 40%, #fff 60%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: shine 5s linear infinite;
+}
+
+.jelly-green-btn {
+  background: linear-gradient(135deg, #baff39 0%, #4de94c 100%);
+  color: #fff;
+  border: none;
+  border-radius: 2.5rem;
+  box-shadow: 0 8px 32px 0 rgba(186, 255, 57, 0.18), 0 2.5px 0 0 #4de94c inset,
+    0 1rem 2.5rem 0 rgba(77, 233, 76, 0.13);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  padding: 1.5rem 3rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.22, 1.61, 0.36, 1), box-shadow 0.2s;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+/* Jelly gloss overlay */
+.jelly-green-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.45) 0%,
+    rgba(255, 255, 255, 0.12) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 2.5rem;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  transition: opacity 0.2s;
+}
+.jelly-green-btn:hover,
+.jelly-green-btn:focus {
+  transform: scale(1.08) skewX(-4deg);
+  box-shadow: 0 12px 40px 0 rgba(186, 255, 57, 0.22), 0 3.5px 0 0 #4de94c inset,
+    0 1.5rem 3rem 0 rgba(77, 233, 76, 0.18);
+}
