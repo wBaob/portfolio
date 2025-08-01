@@ -10,7 +10,7 @@ This is a modern, animated portfolio website built with **Next.js**, **Framer Mo
 
 ---
 
-## Features
+## ✨ Features
 
 - **Framer Motion** for smooth, declarative React animations
 - **GSAP (GreenSock Animation Platform)** for scroll-based and advanced timeline animations
@@ -32,7 +32,7 @@ This is a modern, animated portfolio website built with **Next.js**, **Framer Mo
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
