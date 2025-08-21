@@ -129,7 +129,7 @@ export default function ContactPage() {
                     className="w-28 h-28 object-cover rounded-full"
                   />
                 </div>
-                <h2 className="text-3xl font-black mb-2">Sigma Bao</h2>
+                <h2 className="text-3xl font-black mb-2">Bao</h2>
                 <p className="text-purple-300 text-lg">
                   Creative Developer & Designer
                 </p>
@@ -151,21 +151,10 @@ export default function ContactPage() {
                   className="flex items-center gap-4 p-4 bg-black/30 rounded-lg backdrop-blur-sm"
                   whileHover={{ scale: 1.02 }}
                 >
-                  <Phone className="text-purple-400" size={24} />
-                  <div>
-                    <p className="font-semibold">Phone</p>
-                    <p className="text-purple-200">+7 (775) 071-5381</p>
-                  </div>
-                </motion.div>
-
-                <motion.div
-                  className="flex items-center gap-4 p-4 bg-black/30 rounded-lg backdrop-blur-sm"
-                  whileHover={{ scale: 1.02 }}
-                >
                   <MapPin className="text-purple-400" size={24} />
                   <div>
                     <p className="font-semibold">Location</p>
-                    <p className="text-purple-200">Almaty, Kazakhstan</p>
+                    <p className="text-purple-200">Kazakhstan</p>
                   </div>
                 </motion.div>
               </div>

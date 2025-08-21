@@ -424,7 +424,6 @@ export default function Portfolio() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
           >
-            <span className="shiny-text">Sigma</span>
             <br />
             <span className="shiny-text">Bao</span>
           </motion.h1>
