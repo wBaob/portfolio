@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import SplashCursor from "../components/SplashCursor";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         <SplashCursor />
         <main className="flex-1">{children}</main>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
