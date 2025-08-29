@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/.pnpm/next@14.2.16_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Admin\Desktop\Программы\portfolio\node_modules\.pnpm\@vercel+speed-insights@1.2._1cdebc7fce43d86a440ae607474ac703\node_modules\@vercel\speed-insights\dist\next\index.mjs#SpeedInsights`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Admin\Desktop\portfolio\node_modules\.pnpm\@vercel+speed-insights@1.2._1cdebc7fce43d86a440ae607474ac703\node_modules\@vercel\speed-insights\dist\next\index.mjs#SpeedInsights`);
 
 
 /***/ })

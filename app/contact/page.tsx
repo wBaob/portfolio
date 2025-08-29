@@ -13,6 +13,8 @@ import {
   Github,
   Linkedin,
   Twitter,
+  UserRound,
+  CircleUserRound,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -146,6 +148,21 @@ export default function ContactPage() {
                     <p className="text-purple-200">mmw150781@gmail.com</p>
                   </div>
                 </motion.div>
+
+                <motion.a
+                  href="https://discordapp.com/users/546354115765207080"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-black/30 rounded-lg backdrop-blur-sm"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.97 }}
+                >
+                  <UserRound className="text-purple-400" size={24} />
+                  <div>
+                    <p className="font-semibold">Discord</p>
+                    <p className="text-purple-200">baobobikk</p>
+                  </div>
+                </motion.a>
 
                 <motion.div
                   className="flex items-center gap-4 p-4 bg-black/30 rounded-lg backdrop-blur-sm"
