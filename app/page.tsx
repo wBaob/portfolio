@@ -808,6 +808,7 @@ export default function Portfolio() {
                 title: "PORTFOLIO WEBSITE",
                 tech: "React, GSAP, Framer Motion",
                 image: "/project.png",
+                link: "https://github.com/wBaob/portfolio",
               },
               {
                 title: "MOBILE APP",
@@ -1143,7 +1144,7 @@ function TabContent({ skillTab }: { skillTab: number }) {
             "Netlify",
             "Supabase",
             "Firebase",
-            "Bolt.new",
+            "Bolt",
             "Slack",
             "Jira",
             "Discord",
