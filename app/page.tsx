@@ -1143,7 +1143,7 @@ function TabContent({ skillTab }: { skillTab: number }) {
             "Netlify",
             "Supabase",
             "Firebase",
-            "Trello",
+            "Bolt.new",
             "Slack",
             "Jira",
             "Discord",
