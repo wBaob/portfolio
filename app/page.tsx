@@ -1173,7 +1173,7 @@ function ProjectCard({
   project,
   index,
 }: {
-  project: { title: string; tech: string; image: string };
+  project: { title: string; tech: string; image: string; link?: string };
   index: number;
 }) {
   const cardRef = useRef<HTMLDivElement>(null);
@@ -1228,7 +1228,10 @@ function ProjectCard({
           {project.title}
         </h3>
         <p className="text-gray-300 text-base mb-6 font-mono">{project.tech}</p>
-        <button className="w-full mt-auto px-0 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold text-base shadow-md hover:from-purple-600 hover:to-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-400 active:scale-95">
+        <button
+          onClick={() => window.open(project.link, "_blank")}
+          className="w-full mt-auto px-0 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold text-base shadow-md hover:from-purple-600 hover:to-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-400 active:scale-95"
+        >
           View Project
         </button>
       </div>
